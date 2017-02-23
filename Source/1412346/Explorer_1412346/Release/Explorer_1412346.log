@@ -1,0 +1,51 @@
+﻿Build started 10/14/2016 6:58:36 PM.
+     1>Project "E:\Documents\Năm Ba\LT Windows\Formal\Deadline\Week 2\1412346\Source\1412346\Explorer_1412346\Explorer_1412346.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Software\Microsoft Visual Studio Ultimate 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Explorer_1412346.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Software\Microsoft Visual Studio Ultimate 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Explorer_1412346.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Explorer_1412346.cpp ListView.cpp TreeView.cpp
+         Explorer_1412346.cpp
+         ListView.cpp
+     1>ListView.cpp(31): warning C4002: too many actual parameters for macro 'ImageList_AddIcon'
+     1>ListView.cpp(34): warning C4002: too many actual parameters for macro 'ImageList_AddIcon'
+     1>ListView.cpp(37): warning C4002: too many actual parameters for macro 'ImageList_AddIcon'
+     1>ListView.cpp(138): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\string.h(294) : see declaration of 'wcscpy'
+     1>ListView.cpp(200): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>ListView.cpp(322): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\string.h(284) : see declaration of 'wcscat'
+     1>ListView.cpp(332): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\string.h(284) : see declaration of 'wcscat'
+     1>ListView.cpp(342): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\string.h(284) : see declaration of 'wcscat'
+     1>ListView.cpp(351): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\string.h(284) : see declaration of 'wcscat'
+     1>ListView.cpp(312): warning C4101: 'rBuff' : unreferenced local variable
+         TreeView.cpp
+     1>TreeView.cpp(26): warning C4002: too many actual parameters for macro 'ImageList_AddIcon'
+     1>TreeView.cpp(29): warning C4002: too many actual parameters for macro 'ImageList_AddIcon'
+     1>TreeView.cpp(32): warning C4002: too many actual parameters for macro 'ImageList_AddIcon'
+     1>TreeView.cpp(35): warning C4002: too many actual parameters for macro 'ImageList_AddIcon'
+     1>TreeView.cpp(84): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\string.h(294) : see declaration of 'wcscpy'
+     1>TreeView.cpp(152): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>TreeView.cpp(158): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 E:\Software\Microsoft Visual Studio Ultimate 2013\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\Explorer_1412346.res" Explorer_1412346.rc 
+       Link:
+         E:\Software\Microsoft Visual Studio Ultimate 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\Năm Ba\LT Windows\Formal\Deadline\Week 2\1412346\Source\1412346\Release\Explorer_1412346.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Documents\Năm Ba\LT Windows\Formal\Deadline\Week 2\1412346\Source\1412346\Release\Explorer_1412346.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\Năm Ba\LT Windows\Formal\Deadline\Week 2\1412346\Source\1412346\Release\Explorer_1412346.lib" /MACHINE:X86 /SAFESEH Release\Explorer_1412346.res
+         Release\Explorer_1412346.obj
+         Release\ListView.obj
+         Release\stdafx.obj
+         Release\TreeView.obj
+         Generating code
+         Finished generating code
+         Explorer_1412346.vcxproj -> E:\Documents\Năm Ba\LT Windows\Formal\Deadline\Week 2\1412346\Source\1412346\Release\Explorer_1412346.exe
+     1>Done Building Project "E:\Documents\Năm Ba\LT Windows\Formal\Deadline\Week 2\1412346\Source\1412346\Explorer_1412346\Explorer_1412346.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.08
